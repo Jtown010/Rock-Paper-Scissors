@@ -9,3 +9,12 @@ function getComputerChoice() {
     }
 }
 
+function playerSelection() {
+   let choice = prompt("Throw!");
+   choice = choice.toLowerCase();
+   return choice;
+}
+
+let computerSelection = getComputerChoice();
+
+
